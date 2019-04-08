@@ -1,0 +1,3 @@
+# Ignore Vim plugins files
+# (already hosted on GitHub, managed with vim-plug)
+plugged/
