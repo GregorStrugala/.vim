@@ -22,8 +22,9 @@ set noexpandtab
 " e.g. autocmd Filetype css setlocal tabstop=5
 " (from https://stackoverflow.com/2054627/how-do-i-change-tab-size-in-vim)
 
-" Limit line length to 72 characetrs in (La)TeX files
+" Limit line length to 72 characetrs in (La)TeX and Markdown files
 autocmd bufreadpre *.tex setlocal textwidth=72
+autocmd bufreadpre *.md setlocal textwidth=72
 
 " For plugins to load correctly
 filetype plugin indent on
