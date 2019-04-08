@@ -40,4 +40,4 @@ with the [`.gitignore`](.gitignore) !
 ¹That would be redundant anymway since plugins are already put under
 version control.
 To ignore them during the staging process, simply add the relevant
-directory—typically `~/.vim/Plugged/` to the [`.gitignore`](.gitignore).
+directory—typically `~/.vim/plugged/` to the [`.gitignore`](.gitignore).
