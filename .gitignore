@@ -1,3 +1,6 @@
 # Ignore Vim plugins files
 # (already hosted on GitHub, managed with vim-plug)
 plugged/
+
+# Ignore swap files when staging from Vim
+*.swp
