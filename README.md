@@ -37,7 +37,7 @@ Do not forget to exclude the relevant directories from the repo
 with the [`.gitignore`](.gitignore) !
 
 ---
-¹That would be redundant anymway since plugins are already put under
+¹That would be redundant anyway since plugins are already put under
 version control.
 To ignore them during the staging process, simply add the relevant
 directory—typically `~/.vim/plugged/` to the [`.gitignore`](.gitignore).
