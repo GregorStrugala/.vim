@@ -55,6 +55,8 @@ Plug 'junegunn/limelight.vim' " Hyperfocus writing in Vim
 
 Plug 'JuliaEditorSupport/julia-vim' " Vim support for Julia
 
+Plug 'davidhalter/jedi-vim', { 'commit': '1773837a11f311bd04755c70de363b5000c9cd15' } " Using the jedi autocompletion library for VIM
+
 " Initialize plugin system
 call plug#end()
 
@@ -93,3 +95,6 @@ endfunction
 
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
+
+map <leader>fi :set foldmethod=indent<CR>
+

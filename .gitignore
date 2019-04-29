@@ -4,3 +4,6 @@ plugged/
 
 # Ignore swap files when staging from Vim
 *.swp
+
+# Ignore netrwhist history
+.netrwhist
