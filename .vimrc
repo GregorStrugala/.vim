@@ -98,3 +98,4 @@ autocmd! User GoyoLeave call <SID>goyo_leave()
 
 map <leader>fi :set foldmethod=indent<CR>
 map <leader>sc :setlocal spell spelllang=en_us<CR>
+map <leader>py :Goyo 79<CR>
