@@ -97,4 +97,4 @@ autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
 
 map <leader>fi :set foldmethod=indent<CR>
-
+map <leader>sc :setlocal spell spelllang=en_us<CR>

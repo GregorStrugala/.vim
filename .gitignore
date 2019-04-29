@@ -7,3 +7,6 @@ plugged/
 
 # Ignore netrwhist history
 .netrwhist
+
+# Ignore add.spl files
+*.add.spl
